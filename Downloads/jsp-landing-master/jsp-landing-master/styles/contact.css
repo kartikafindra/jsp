@@ -1,0 +1,102 @@
+@import url('./style.css');
+
+.map{
+   height: 100vh;
+	/* border: 1px solid red; */
+	background: url('/assets/Nyusbox\ Map\ \(Satellite\).png') no-repeat center fixed; 
+	background-size: cover;
+   transition: .4s ease all;
+}
+
+.mapImg{
+   overflow-y: hidden;
+   /* height: 100vh; */
+   width: 100%;
+   transition: .4s ease-in-out all;
+}
+
+.mapImg:hover{
+   transform: scale(1.5);
+}
+
+.contactContent{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 50px 0;
+}
+
+.contactContent h1{
+  /* font-size: 24px; */
+   font-weight: 500;
+   color: rgb(63, 63, 63);
+   /* margin: 20px 0; */
+}
+
+.top a {
+   text-decoration: none;
+   color: rgb(63, 63, 63);
+   margin-top: 10px;
+   display: inline-block;
+   border: 1px solid rgb(63, 63, 63);
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 14px;
+   transition: .3s ease all;
+}
+
+.top a:hover{
+   background-color: rgb(63, 63, 63);
+   color: white;
+}
+
+.subTitle{
+   font-size: 22px;
+   margin: 10px 0;
+}
+
+.titleSection{
+   border-bottom: 1px solid black;
+   width: fit-content;
+   margin: 25px 0;
+}
+
+.bottom ul li{
+   list-style: none;
+   margin: 10px 0;
+}
+
+
+@media only screen and (min-width: 670px) {
+   .contactContent{
+      justify-content: center;
+      align-items: center;
+      /* border: 1px solid red; */
+      padding: 50px 50px;
+      /* max-width: 70%; */
+
+   }
+   .contactContent h1{
+      align-self: flex-start;
+   }
+
+   
+
+   .bottom{
+      align-self: flex-start;
+   }
+   .top{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      /* border: 1px solid red; */
+      width: 100%;
+   }
+
+   .top p{
+      max-width: 400px;
+   }
+
+
+}
