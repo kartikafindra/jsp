@@ -72,8 +72,13 @@ if (window.location.pathname === '/pages/content.html') {
 			title: 'Perjalanan ke Wonosobo Post Production Film Penantian Cinta di Telaga Menjer',
 			link: 'https://okeflix.com/series/penantian-cinta-di-telaga-menjer/',
 		}),
-		(postProd = {
+		(postLama = {
 			image: 'filmbaru.png',
+			title: 'Perjalanan ke Wonosobo Post Production Film Penantian Cinta di Telaga Menjer',
+			link: 'https://okeflix.com/series/penantian-cinta-di-telaga-menjer/',
+		}),
+		(post = {
+			image: 'film.png',
 			title: 'Perjalanan ke Wonosobo Post Production Film Penantian Cinta di Telaga Menjer',
 			link: 'https://okeflix.com/series/penantian-cinta-di-telaga-menjer/',
 		}),
